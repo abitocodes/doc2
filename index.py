@@ -27,6 +27,7 @@ def web_to_pdf(url, output_file_name):
         
         temp_pdf_files = []
         last_height = driver.execute_script("return document.body.scrollHeight")
+        print("Initial height:", last_height)
         
         while True:
             # Take a screenshot and save as PDF
@@ -42,21 +43,25 @@ def web_to_pdf(url, output_file_name):
             print(f"Converted {screenshot_png} to {temp_pdf}.")
             
             # Scroll down and check if the bottom of the page is reached
-            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            driver.execute_script("window.scrollTo(0, 500);")
             time.sleep(2)
-            new_height = driver.execute_script("return document.body.scrollHeight")
-            if new_height == last_height:
-                break
-            last_height = new_height
+            print("Scrolled down.")
+            # new_height = driver.execute_script("return document.body.scrollHeight")
+            # print("New height:", new_height)
+            # if new_height == last_height:
+            #     print("Reached the bottom of the page.")
+            #     break
+            last_height = last_height + 100
         
-        # Merge all PDFs into one
-        merger = PdfMerger()
-        for pdf in temp_pdf_files:
-            merger.append(pdf)
-        output_file = os.path.join(results_dir, output_file_name)
-        merger.write(output_file)
-        merger.close()
-        print(f"All screenshots merged into {output_file}.")
+        # # Merge all PDFs into one
+        # merger = PdfMerger()
+        # for pdf in temp_pdf_files:
+        #     merger.append(pdf)
+        # output_file = os.path.join(results_dir, output_file_name)
+        # merger.write(output_file)
+        # merger.close()
+        # print(f"All screenshots merged into {output_file}.")
         
     except Exception as e:
         print(f"An error occurred: {e}")
