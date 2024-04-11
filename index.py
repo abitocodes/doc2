@@ -10,7 +10,11 @@ from PyPDF2 import PdfMerger
 import time
 import os
 
-def web_to_pdf(url, output_file):
+def web_to_pdf(url, output_file_name):
+    # Ensure the results directory exists
+    results_dir = "results"
+    os.makedirs(results_dir, exist_ok=True)
+
     firefox_options = Options()
     firefox_options.add_argument("--headless")  # Run in headless mode
     driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=firefox_options)
@@ -26,12 +30,12 @@ def web_to_pdf(url, output_file):
         
         while True:
             # Take a screenshot and save as PDF
-            screenshot_png = f'temp_screenshot_{len(temp_pdf_files)}.png'
+            screenshot_png = os.path.join(results_dir, f'temp_screenshot_{len(temp_pdf_files)}.png')
             driver.save_screenshot(screenshot_png)
             print(f"Screenshot saved as {screenshot_png}.")
             
             # Convert PNG to PDF
-            temp_pdf = f"temp_{len(temp_pdf_files)}.pdf"
+            temp_pdf = os.path.join(results_dir, f"temp_{len(temp_pdf_files)}.pdf")
             with open(temp_pdf, "wb") as f:
                 f.write(img2pdf.convert(screenshot_png))
             temp_pdf_files.append(temp_pdf)
@@ -49,6 +53,7 @@ def web_to_pdf(url, output_file):
         merger = PdfMerger()
         for pdf in temp_pdf_files:
             merger.append(pdf)
+        output_file = os.path.join(results_dir, output_file_name)
         merger.write(output_file)
         merger.close()
         print(f"All screenshots merged into {output_file}.")
