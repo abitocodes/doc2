@@ -19,17 +19,17 @@ def remove_unwanted_elements(driver):
     """)
 
 def format_title_segment(segment):
-    # 각 세그먼트를 대문자로 시작하도록 변환합니다. 예: "nodes-and-clients" -> "Nodes-And-Clients"
+    # Convert each segment to start with a capital letter. Example: "nodes-and-clients" -> "Nodes-And-Clients"
     return '-'.join(word.capitalize() for word in segment.split('-'))
 
 def get_document_title_from_url(url):
-    # URL을 파싱하여 "docs" 이후의 경로를 추출합니다.
+    # Parse the URL to extract the path after "docs".
     parts = url.split('/developers/docs/')[1:]
     if not parts:
-        # "docs" 이후의 경로가 없는 경우 기본값 반환
+        # Return default value if there is no path after "docs".
         return "Document"
 
-    # 경로를 '_'로 연결하고, 각 세그먼트를 적절히 형식화합니다.
+    # Connect the path with '_', and format each segment appropriately.
     title_parts = [format_title_segment(part) for part in parts[0].split('/') if part]
     return '_'.join(title_parts).upper() + ".pdf"
 
@@ -92,17 +92,16 @@ def web_to_pdf(url):
 def process_links_from_json(json_file_path, last_successful_url):
     with open(json_file_path, 'r') as json_file:
         links = json.load(json_file)
-        # last_successful_url 이후의 링크들만 처리하도록 인덱스를 찾습니다.
+        # Find the index to process only the links after the last_successful_url.
         if last_successful_url in links:
             start_index = links.index(last_successful_url) + 1
         else:
-            # last_successful_url이 리스트에 없으면 처음부터 시작
+            # If last_successful_url is not in the list, start from the beginning.
             start_index = 0
 
         for url in links[start_index:]:
             web_to_pdf(url)
 
-# 마지막으로 성공한 URL을 이 함수의 인자로 전달합니다.
-# 예를 들어, 마지막 성공한 링크가 'https://ethereum.org/en/developers/docs/data-and-analytics/' 이었다면:
+# Pass the last successfully processed URL as an argument to this function.
+# For example, if the last successful link was 'https://ethereum.org/en/developers/docs/data-and-analytics/':
 process_links_from_json('crawled-links.json', 'https://ethereum.org/en/developers/docs/data-and-analytics/')
-
