@@ -1,4 +1,4 @@
-# Project Title
+# doc2
 Webpage to PDF Conversion Tool
 
 ## Description
@@ -16,7 +16,7 @@ Before you begin, ensure you have Python installed on your machine along with th
 ## Installation
 Clone this repository to your local machine using:
 ```bash
-git clone <repository-url>
+git clone https://github.com/abitocodes/doc2.git
 ```
 
 ## Usage
