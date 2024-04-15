@@ -2,7 +2,7 @@
 Webpage to PDF Conversion Tool
 
 ## Description
-This project provides a toolset for crawling web pages (specifically from Ethereum technology documents as an example), converting them into PDF format, and optionally reversing the colors for print. The process is divided into several steps, each handled by a separate script.
+This project provides a toolset for crawling web pages (specifically from Ethereum technology documents as an example, https://ethereum.org/en/developers/docs/), converting them into PDF format, and optionally reversing the colors for print. The process is divided into several steps, each handled by a separate script.
 
 ## Prerequisites
 Before you begin, ensure you have Python installed on your machine along with the following libraries:
