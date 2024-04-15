@@ -40,3 +40,5 @@ To use this tool, perform the following steps in order:
 
 ## Output
 The scripts will generate PDFs in the 'results' directory and ultimately produce a merged and color-inverted PDF in the project root directory.
+
+Note: The `etc/sh` directory contains shell scripts that were used during development. These scripts are not necessary for the main operations of the program and have been retained for reference.
