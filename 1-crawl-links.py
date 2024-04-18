@@ -7,6 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.firefox import GeckoDriverManager
 import json
 import time
+from config import websiteConfig
+
+targetConfig = websiteConfig['ethereum']
 
 # Setup options for WebDriver
 options = Options()
@@ -16,13 +19,13 @@ options.add_argument('--headless')  # Run in headless mode, optional
 driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()), options=options)
 
 # Navigate to the page
-driver.get("https://ethereum.org/en/developers/docs/")
+driver.get(targetConfig['url'])
 
 # Wait for the necessary elements to load
-WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, '#__next > div > div.css-hgrqbb > div.css-1kc3w28 > nav')))
+WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, targetConfig['selectors']['menu'])))
 
 # Find all the menus using the specified selector and click to expand them
-menus = driver.find_elements(By.CSS_SELECTOR, '#__next > div > div.css-hgrqbb > div.css-1kc3w28 > nav > div')
+menus = driver.find_elements(By.CSS_SELECTOR, targetConfig['selectors']['menu'])
 for menu in menus:
     menu.click()
     time.sleep(1)  # Wait a bit to ensure the menu has expanded
@@ -30,7 +33,7 @@ for menu in menus:
 links = []
 link_index = 0  # Initialize a counter for the links
 
-expanded_menus = driver.find_elements(By.CSS_SELECTOR, '#__next > div > div.css-hgrqbb > div.css-1kc3w28 > nav > div > div')
+expanded_menus = driver.find_elements(By.CSS_SELECTOR, targetConfig['selectors']['expanded_menu'])
 for expanded_menu in expanded_menus:
     menu_links = expanded_menu.find_elements(By.TAG_NAME, 'a')
     for link in menu_links:

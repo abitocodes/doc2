@@ -1,0 +1,382 @@
+[
+    {
+        "url": "https://ethereum.org/en/developers/docs/",
+        "title": "0"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/intro-to-ethereum/",
+        "title": "1_INTRO-TO-ETHEREUM"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/intro-to-ether/",
+        "title": "2_INTRO-TO-ETHER"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/dapps/",
+        "title": "3_DAPPS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/web2-vs-web3/",
+        "title": "4_WEB2-VS-WEB3"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/accounts/",
+        "title": "5_ACCOUNTS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/transactions/",
+        "title": "6_TRANSACTIONS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/blocks/",
+        "title": "7_BLOCKS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/evm/",
+        "title": "8_EVM"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/evm/opcodes/",
+        "title": "9_EVM_OPCODES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/gas/",
+        "title": "10_GAS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/nodes-and-clients/",
+        "title": "11_NODES-AND-CLIENTS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/nodes-and-clients/run-a-node/",
+        "title": "12_NODES-AND-CLIENTS_RUN-A-NODE"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/nodes-and-clients/client-diversity/",
+        "title": "13_NODES-AND-CLIENTS_CLIENT-DIVERSITY"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/",
+        "title": "14_NODES-AND-CLIENTS_NODES-AS-A-SERVICE"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/nodes-and-clients/node-architecture/",
+        "title": "15_NODES-AND-CLIENTS_NODE-ARCHITECTURE"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/nodes-and-clients/light-clients/",
+        "title": "16_NODES-AND-CLIENTS_LIGHT-CLIENTS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/nodes-and-clients/archive-nodes/",
+        "title": "17_NODES-AND-CLIENTS_ARCHIVE-NODES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/nodes-and-clients/bootnodes/",
+        "title": "18_NODES-AND-CLIENTS_BOOTNODES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/networks/",
+        "title": "19_NETWORKS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/",
+        "title": "20_CONSENSUS-MECHANISMS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/",
+        "title": "21_CONSENSUS-MECHANISMS_POW"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining/",
+        "title": "22_CONSENSUS-MECHANISMS_POW_MINING"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/",
+        "title": "23_CONSENSUS-MECHANISMS_POW_MINING_MINING-ALGORITHMS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/dagger-hashimoto/",
+        "title": "24_CONSENSUS-MECHANISMS_POW_MINING_MINING-ALGORITHMS_DAGGER-HASHIMOTO"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pow/mining/mining-algorithms/ethash/",
+        "title": "25_CONSENSUS-MECHANISMS_POW_MINING_MINING-ALGORITHMS_ETHASH"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/",
+        "title": "26_CONSENSUS-MECHANISMS_POS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/",
+        "title": "27_CONSENSUS-MECHANISMS_POS_GASPER"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/weak-subjectivity/",
+        "title": "28_CONSENSUS-MECHANISMS_POS_WEAK-SUBJECTIVITY"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attestations/",
+        "title": "29_CONSENSUS-MECHANISMS_POS_ATTESTATIONS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/",
+        "title": "30_CONSENSUS-MECHANISMS_POS_REWARDS-AND-PENALTIES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attack-and-defense/",
+        "title": "31_CONSENSUS-MECHANISMS_POS_ATTACK-AND-DEFENSE"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/keys/",
+        "title": "32_CONSENSUS-MECHANISMS_POS_KEYS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/pos-vs-pow/",
+        "title": "33_CONSENSUS-MECHANISMS_POS_POS-VS-POW"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/block-proposal/",
+        "title": "34_CONSENSUS-MECHANISMS_POS_BLOCK-PROPOSAL"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/faqs/",
+        "title": "35_CONSENSUS-MECHANISMS_POS_FAQS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/ethereum-stack/",
+        "title": "36_ETHEREUM-STACK"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/",
+        "title": "37_SMART-CONTRACTS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/languages/",
+        "title": "38_SMART-CONTRACTS_LANGUAGES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/anatomy/",
+        "title": "39_SMART-CONTRACTS_ANATOMY"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/libraries/",
+        "title": "40_SMART-CONTRACTS_LIBRARIES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/testing/",
+        "title": "41_SMART-CONTRACTS_TESTING"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/compiling/",
+        "title": "42_SMART-CONTRACTS_COMPILING"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/deploying/",
+        "title": "43_SMART-CONTRACTS_DEPLOYING"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/verifying/",
+        "title": "44_SMART-CONTRACTS_VERIFYING"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/upgrading/",
+        "title": "45_SMART-CONTRACTS_UPGRADING"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/security/",
+        "title": "46_SMART-CONTRACTS_SECURITY"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/formal-verification/",
+        "title": "47_SMART-CONTRACTS_FORMAL-VERIFICATION"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/smart-contracts/composability/",
+        "title": "48_SMART-CONTRACTS_COMPOSABILITY"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/development-networks/",
+        "title": "49_DEVELOPMENT-NETWORKS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/frameworks/",
+        "title": "50_FRAMEWORKS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/apis/javascript/",
+        "title": "51_APIS_JAVASCRIPT"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/apis/backend/",
+        "title": "52_APIS_BACKEND"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/apis/json-rpc/",
+        "title": "53_APIS_JSON-RPC"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/data-and-analytics/",
+        "title": "54_DATA-AND-ANALYTICS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/data-and-analytics/block-explorers/",
+        "title": "55_DATA-AND-ANALYTICS_BLOCK-EXPLORERS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/storage/",
+        "title": "56_STORAGE"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/ides/",
+        "title": "57_IDES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/",
+        "title": "58_PROGRAMMING-LANGUAGES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/dart/",
+        "title": "59_PROGRAMMING-LANGUAGES_DART"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/delphi/",
+        "title": "60_PROGRAMMING-LANGUAGES_DELPHI"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/dot-net/",
+        "title": "61_PROGRAMMING-LANGUAGES_DOT-NET"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/golang/",
+        "title": "62_PROGRAMMING-LANGUAGES_GOLANG"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/java/",
+        "title": "63_PROGRAMMING-LANGUAGES_JAVA"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/javascript/",
+        "title": "64_PROGRAMMING-LANGUAGES_JAVASCRIPT"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/python/",
+        "title": "65_PROGRAMMING-LANGUAGES_PYTHON"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/ruby/",
+        "title": "66_PROGRAMMING-LANGUAGES_RUBY"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/programming-languages/rust/",
+        "title": "67_PROGRAMMING-LANGUAGES_RUST"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/bridges/",
+        "title": "68_BRIDGES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/standards/",
+        "title": "69_STANDARDS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/standards/tokens/",
+        "title": "70_STANDARDS_TOKENS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/standards/tokens/erc-20/",
+        "title": "71_STANDARDS_TOKENS_ERC-20"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/standards/tokens/erc-721/",
+        "title": "72_STANDARDS_TOKENS_ERC-721"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/standards/tokens/erc-777/",
+        "title": "73_STANDARDS_TOKENS_ERC-777"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/standards/tokens/erc-1155/",
+        "title": "74_STANDARDS_TOKENS_ERC-1155"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/standards/tokens/erc-4626/",
+        "title": "75_STANDARDS_TOKENS_ERC-4626"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/mev/",
+        "title": "76_MEV"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/oracles/",
+        "title": "77_ORACLES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/scaling/",
+        "title": "78_SCALING"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/scaling/optimistic-rollups/",
+        "title": "79_SCALING_OPTIMISTIC-ROLLUPS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/scaling/zk-rollups/",
+        "title": "80_SCALING_ZK-ROLLUPS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/scaling/state-channels/",
+        "title": "81_SCALING_STATE-CHANNELS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/scaling/sidechains/",
+        "title": "82_SCALING_SIDECHAINS"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/scaling/plasma/",
+        "title": "83_SCALING_PLASMA"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/scaling/validium/",
+        "title": "84_SCALING_VALIDIUM"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/data-availability/",
+        "title": "85_DATA-AVAILABILITY"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/networking-layer/",
+        "title": "86_NETWORKING-LAYER"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/networking-layer/network-addresses/",
+        "title": "87_NETWORKING-LAYER_NETWORK-ADDRESSES"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/networking-layer/portal-network/",
+        "title": "88_NETWORKING-LAYER_PORTAL-NETWORK"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/data-structures-and-encoding/",
+        "title": "89_DATA-STRUCTURES-AND-ENCODING"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/data-structures-and-encoding/patricia-merkle-trie/",
+        "title": "90_DATA-STRUCTURES-AND-ENCODING_PATRICIA-MERKLE-TRIE"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/data-structures-and-encoding/rlp/",
+        "title": "91_DATA-STRUCTURES-AND-ENCODING_RLP"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/data-structures-and-encoding/ssz/",
+        "title": "92_DATA-STRUCTURES-AND-ENCODING_SSZ"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/data-structures-and-encoding/web3-secret-storage/",
+        "title": "93_DATA-STRUCTURES-AND-ENCODING_WEB3-SECRET-STORAGE"
+    },
+    {
+        "url": "https://ethereum.org/en/developers/docs/design-and-ux/",
+        "title": "94_DESIGN-AND-UX"
+    }
+]
